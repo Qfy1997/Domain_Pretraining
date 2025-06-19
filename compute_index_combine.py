@@ -17,7 +17,8 @@ if __name__=='__main__':
     # print(max_length)
     # print(comb(31,2))
     for i in range(min_length,max_length):
-        combins = [c for c in  combinations(range(31), 2)]
+        a=i
+        combins = [c for c in  combinations(range(a), 2)]
         print(i,":",combins)
     # for i in range(min_length,max_length):
     #     if i%2==0:
